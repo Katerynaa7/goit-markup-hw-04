@@ -108,8 +108,8 @@ body {
 .container-list {
   display: flex;
 }
-.header-link {
-  margin-right: 93px;
+.header-list {
+  margin-right: 94px;
 }
 .header-list {
   display: flex;
@@ -176,15 +176,9 @@ body {
 .site-contact .link {
   text-decoration: none;
 }
-.connect {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.mail-contact {
+.header-icon {
   fill: currentColor;
+  margin-right: ;
 }
 
 .site-contact .link {
@@ -196,6 +190,9 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: #757575;
+}
+.site-contact .link:not(:last child) {
+  margin-right: 30px;
 }
 
 .site-contact .link:hover,
@@ -394,6 +391,27 @@ body {
 .part-list-element {
   margin-bottom: 16px;
 }
+.clients {
+  text-decoration: none;
+}
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #afb1b8;
+}
+.clients-icon {
+  color: currentColor;
+}
 
 /* оформлення флекс для секції наша команда */
 
@@ -454,7 +472,13 @@ address {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.socials-footer-list .list {
+  text-decoration: none;
+}
+.socials-footer-list {
+  display: flex;
+  gap: 10px;
+}
 /* css для сторінки Портфоліо */
 /*  пробую початок */
 
