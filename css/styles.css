@@ -176,6 +176,17 @@ body {
 .site-contact .link {
   text-decoration: none;
 }
+.connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.mail-contact {
+  fill: currentColor;
+}
+
 .site-contact .link {
   display: block;
   padding-top: 32px;
@@ -184,6 +195,7 @@ body {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .site-contact .link:hover,
