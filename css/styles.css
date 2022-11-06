@@ -100,13 +100,13 @@ body {
   color: var(--primary-text-color);
 }
 /* header */
-
 .header-container {
   display: flex;
   align-items: center;
 }
 .container-list {
   display: flex;
+  align-items: center;
 }
 .header-list {
   margin-right: 94px;
@@ -131,6 +131,7 @@ body {
   display: block;
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
+  margin-right: 93px;
 
   font-style: normal;
   font-weight: 700;
@@ -329,6 +330,9 @@ body {
 .team-wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 1px #000000;
 }
 .list .part-second-title {
   margin-bottom: 10px;
@@ -338,11 +342,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.participants-list .list {
+/* .participants-list .list {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 1px #000000;
-}
+} */
 .list .part-list-element {
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -391,9 +395,20 @@ body {
 .part-list-element {
   margin-bottom: 16px;
 }
+/* оформлення картинок для секції наші постійні клієнти */
+.socials-title {
+  font-style: normal;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
 .clients {
   text-decoration: none;
 }
+
 .clients {
   display: flex;
   align-items: center;
@@ -410,8 +425,18 @@ body {
   color: #afb1b8;
 }
 .clients-icon {
-  color: currentColor;
+  fill: currentColor;
 }
+.clients-list {
+  margin-bottom: 94px;
+}
+.clients-list:first-child {
+  margin-left: 215px;
+}
+.clients-list:last-child {
+  margin-right: 215px;
+}
+/* оформлення картинок для секції наші постійні клієнти */
 
 /* оформлення флекс для секції наша команда */
 
@@ -472,13 +497,33 @@ address {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.socials-footer-list .list {
-  text-decoration: none;
+
+.footer-contact {
+  display: flex;
+
+  align-items: baseline;
 }
+.socials-footer {
+  margin-left: 70px;
+}
+
 .socials-footer-list {
   display: flex;
+  padding-left: 0px;
+
   gap: 10px;
 }
+
+.footer-header {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
 /* css для сторінки Портфоліо */
 /*  пробую початок */
 
@@ -530,6 +575,8 @@ address {
   border: none;
   padding: 6px 22px;
   border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-list .portfolio-list-button:hover,
 .portfolio-list .portfolio-list-button:focus {
@@ -542,6 +589,11 @@ address {
 }
 .portfolio-examples-link {
   text-decoration: none;
+}
+.portfolio-examples .list:hover,
+.portfolio-examples .list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-wrapper {
   padding: 20px 24px;
