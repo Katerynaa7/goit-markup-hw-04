@@ -92,7 +92,7 @@ img {
 
 /* оформлення флекс для header */
 .header {
-  border: 1px #ececec;
+  border: 1px solid #ececec;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -143,10 +143,6 @@ body {
 }
 
 .name {
-  color: #000000;
-}
-.logo:hover,
-.logo:focus {
   color: #000000;
 }
 .second-name {
@@ -390,7 +386,7 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  color: var(--additional-color);
+  color: var(--icon-color);
 }
 .socials-link:hover,
 .socials-link:focus {
@@ -503,10 +499,7 @@ address {
   letter-spacing: 0.03em;
   color: var(--additional-color);
 }
-.site-contact-list .link-location:hover,
-.site-contact-list .link-location:focus {
-  color: var(--accent-color);
-}
+
 .site-contact-list .link-contact-list:hover,
 .site-contact-list .link-contact-list:focus {
   color: var(--accent-color);
