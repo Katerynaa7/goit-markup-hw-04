@@ -541,6 +541,10 @@ address {
   margin-bottom: 20px;
 }
 
+.socials-footer-list .socials-link {
+  color: var(--additional-color);
+}
+
 /* css для сторінки Портфоліо */
 /*  пробую початок */
 
